@@ -1,0 +1,130 @@
+body{
+  background-color: #F7F4ED;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.logo{
+  width: 12%;
+  height: 60px;
+  object-fit: cover;
+  margin-left: 90px;
+  /* border: 2px solid red; */
+}
+/* 
+header{
+  border: 1px solid red;
+  display: fixed;
+
+
+} */
+
+
+nav{
+  float: right;
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 90px;
+  padding-top: 15px;
+
+}
+
+nav a{
+  margin: 0 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+
+nav > button{
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+border: none;  
+border-radius: 99em;
+cursor: pointer;
+}
+
+.small-box{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  color: black;
+  width: 100;
+  height: auto;
+  background: rgb(250,238,177);
+background: linear-gradient(90deg, rgba(250,238,177,1) 0%, rgba(251,240,183,1) 19%, rgba(249,236,165,1) 39%, rgba(250,235,142,1) 52%, rgba(255,226,59,1) 76%, rgba(254,173,0,1) 91%);
+}
+
+.small-box a{
+  color: #242424;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+}
+
+main h1{
+  font-size: 6rem;
+  width: 100%;
+  color: #242424;
+}
+
+main >div{
+  margin-left: 120px;
+}
+
+main img{
+  width: 30%;
+  margin-right: -10px;
+  /* FEAD00
+  rgb(255,219,41), FFDB29 
+  FAECA5*/
+}
+
+main p{
+  font-size: 1.5rem;
+  margin-top: -50px;
+  color: #3F3F3E;
+}
+
+main button{
+  /* font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  padding: 12px 50px;
+  font-size: 1.3rem;
+  font-weight: normal;
+  letter-spacing: 10;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 99em;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+hr{
+  border-top: 1px solid black;
+}
+
+footer{
+  margin: 20px auto;
+  width: 50%;
+
+}
+
+footer a{
+  text-decoration: none;
+  color: #999896;
+  margin: 0 10px;
+  font-size: 13px;
+}
+/* 
+@media  screen and {
+  
+} */
